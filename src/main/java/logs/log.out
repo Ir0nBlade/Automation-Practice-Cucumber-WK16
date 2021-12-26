@@ -1,0 +1,32 @@
+2021-12-25 11:12:181 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-25 11:12:293 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-25 11:12:182 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-25 11:12:470 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-25 13:12:554 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 09:12:693 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 10:12:228 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 10:12:737 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 10:12:129 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 10:12:355 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 10:12:881 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:351 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:913 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:102 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:153 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:337 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:173 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:666 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:99 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:301 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 11:12:967 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 12:12:447 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-26 12:12:264 INFO  HomePage :42 - Entering Quantity [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> xpath: //a[@title='Women']]
+2021-12-26 12:12:613 INFO  WomenCategoryPage :54 - Clicking on Blouse [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> xpath: //a[normalize-space()='Blouse']]
+2021-12-26 12:12:294 INFO  ProductPage :46 - Entering Quantity [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> id: quantity_wanted]
+2021-12-26 12:12:336 INFO  ProductPage :48 - Selecting Size [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> id: group_1]
+2021-12-26 12:12:417 INFO  ProductPage :50 - Selecting Colour  [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> class: attribute_list]
+2021-12-26 12:12:464 INFO  ProductPage :55 - Clicking on Add To cart button [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> xpath: //span[contains(text(),'Add to cart')]]
+2021-12-26 12:12:520 INFO  ProductPage :60 - Verify message displayed on Pop Up  [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> xpath: //h2[normalize-space()='Product successfully added to your shopping cart']]
+2021-12-26 12:12:546 INFO  ProductPage :70 - Clicking on Proceed to Checkout Button [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> xpath: //a[@title='Proceed to checkout']]
+2021-12-26 12:12:490 INFO  ShoppingCartPage :27 - Clicking on Delete Button [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> xpath: //i[@class='icon-trash']]
+2021-12-26 12:12:522 INFO  ShoppingCartPage :32 - Verifying Shopping Cart Empty Message  Your shopping cart is empty.
