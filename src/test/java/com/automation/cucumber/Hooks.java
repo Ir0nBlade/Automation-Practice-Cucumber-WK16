@@ -28,6 +28,6 @@ public class Hooks extends Utility {
             }
         }
 
-//        closeBrowser();
+        closeBrowser();
     }
 }

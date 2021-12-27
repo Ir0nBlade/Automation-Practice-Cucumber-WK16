@@ -4,7 +4,7 @@
     "elements": [
       {
         "line": 5,
-        "name": "I am on homepage",
+        "name": "I am on Homepage",
         "description": "",
         "type": "background",
         "keyword": "Background"
@@ -13,7 +13,7 @@
         "before": [
           {
             "result": {
-              "duration": 7410681200,
+              "duration": 11887464900,
               "status": "passed"
             },
             "match": {
@@ -21,14 +21,14 @@
             }
           }
         ],
-        "line": 18,
-        "name": "Verify user should remove product from cart successfully",
+        "line": 7,
+        "name": "Verify User should able to browse Store Page successfully",
         "description": "",
-        "id": "shopping-cart-delete;verify-user-should-remove-product-from-cart-successfully;;2",
+        "id": "our-stores;verify-user-should-able-to-browse-store-page-successfully",
         "after": [
           {
             "result": {
-              "duration": 69200,
+              "duration": 603765201,
               "status": "passed"
             },
             "match": {
@@ -37,139 +37,63 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2414356400,
+              "duration": 7019493600,
               "status": "passed"
             },
             "line": 8,
-            "name": "I click on \u0027Women\u0027 tab",
+            "name": "I click on \u0027Our Stores\u0027 link",
             "match": {
-              "location": "ShoppingCartDelete.iClickOnWomenTab()"
+              "location": "OurStores.iClickOnOurStoresLink()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1679353500,
+              "duration": 41418099,
               "status": "passed"
             },
             "line": 9,
-            "name": "I select product \"Blouse\"",
+            "name": "I accept Pop Up message",
             "match": {
-              "arguments": [
-                {
-                  "val": "Blouse",
-                  "offset": 18
-                }
-              ],
-              "location": "ShoppingCartDelete.iSelectProduct(String)"
+              "location": "OurStores.iAcceptPopUpMessage()"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 172579600,
+              "duration": 1955709200,
               "status": "passed"
             },
             "line": 10,
-            "name": "I select quantity \"2\", size \"M\" and colour \"White\"",
+            "name": "I scroll Through Map to West Palm Beach",
             "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 19
-                },
-                {
-                  "val": "M",
-                  "offset": 29
-                },
-                {
-                  "val": "White",
-                  "offset": 44
-                }
-              ],
-              "location": "ShoppingCartDelete.iSelectQuantitySizeAndColour(String,String,String)"
+              "location": "OurStores.iScrollThroughMapToWestPalmBeach()"
             },
-            "matchedColumns": [
-              1,
-              2,
-              3
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 54725700,
+              "duration": 1350748600,
               "status": "passed"
             },
             "line": 11,
-            "name": "I click on \u0027Add To Cart\u0027 button",
+            "name": "I take Screenshot of the page",
             "match": {
-              "location": "ShoppingCartDelete.iClickOnAddToCartButton()"
+              "location": "OurStores.iTakeScreenshotOfThePage()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 24773800,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I can see product has been \u0027Product successfully added to your shopping cart\u0027",
-            "match": {
-              "location": "ShoppingCartDelete.iCanSeeProductHasBeenProductSuccessfullyAddedToYourShoppingCart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1937184700,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I click on \u0027Proceed To Checkout\u0027 button",
-            "match": {
-              "location": "ShoppingCartDelete.iClickOnProceedToCheckoutButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 43079400,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I click on \u0027Delete\u0027 icon to delete the product from shopping cart",
-            "match": {
-              "location": "ShoppingCartDelete.iClickOnDeleteIconToDeleteTheProductFromShoppingCart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 23206500,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Product has been removed from shopping cart successfully",
-            "match": {
-              "location": "ShoppingCartDelete.productHasBeenRemovedFromShoppingCartSuccessfully()"
-            },
-            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Shopping cart delete",
-    "description": "\r\nUser should able to delete product from shopping cart",
-    "id": "shopping-cart-delete",
+    "name": "Our Stores",
+    "description": "\r\nUser should browse our strore page successfully",
+    "id": "our-stores",
     "keyword": "Feature",
-    "uri": "src/test/java/resources/featurefile/ShoppingCartDelete.feature"
+    "uri": "src/test/java/resources/featurefile/OurStore.feature"
   }
 ]

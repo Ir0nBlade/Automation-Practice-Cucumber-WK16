@@ -30,3 +30,7 @@
 2021-12-26 12:12:546 INFO  ProductPage :70 - Clicking on Proceed to Checkout Button [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> xpath: //a[@title='Proceed to checkout']]
 2021-12-26 12:12:490 INFO  ShoppingCartPage :27 - Clicking on Delete Button [[ChromeDriver: chrome on WINDOWS (073de23d6304866f6904ab14735cd935)] -> xpath: //i[@class='icon-trash']]
 2021-12-26 12:12:522 INFO  ShoppingCartPage :32 - Verifying Shopping Cart Empty Message  Your shopping cart is empty.
+2021-12-27 13:12:57 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-27 13:12:779 INFO  HomePage :67 - Clicking on Our Strores link  [[ChromeDriver: chrome on WINDOWS (165b93d3c86bb86ca97a868cda9537a8)] -> xpath: //a[contains(text(),'Our stores')]]
+2021-12-27 13:12:166 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-27 13:12:829 INFO  HomePage :67 - Clicking on Our Strores link  [[ChromeDriver: chrome on WINDOWS (83d22e50038ae8c7852a0d3353040291)] -> xpath: //a[contains(text(),'Our stores')]]
